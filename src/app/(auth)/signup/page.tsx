@@ -1,7 +1,7 @@
 interface PageProps {}
 
 export function Page({}: PageProps) {
-  return <div>Dashboard page</div>;
+  return <div>sign up page</div>;
 }
 
 export default Page;
