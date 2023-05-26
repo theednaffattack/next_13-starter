@@ -21,6 +21,9 @@ export default function RootLayout({
         type="image/<generated>"
         sizes="<generated>"
       />
+      <link rel="icon" type="image/svg+xml" href="/favicon.svg" sizes="any" />
+      <link rel="icon" type="image/png" href="/assets/images/favicon.png" />
+
       <body className={inter.className}>{children}</body>
     </html>
   );
